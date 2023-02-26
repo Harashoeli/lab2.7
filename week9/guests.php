@@ -116,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	  die("Connection failed: " . $conn->connect_error);
 	}
 
-	$sql = "INSERT INTO aocelen_MyGuests (firstname, lastname, email)
+	$sql = "INSERT INTO aocelen_Guests (firstname, lastname, email)
 	VALUES ('$name', '$website', '$email')";
 
 	if ($conn->query($sql) === TRUE) {
