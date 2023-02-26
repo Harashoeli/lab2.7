@@ -18,7 +18,7 @@ img {
 </style>
 </head>
 <body background="Tokyoretro.jpg">
-<img src="images/AleckSelf.jpg" alt="AleckSelf" width="200" height="300" class="center">
+<img src="AleckSelf.jpg" alt="AleckSelf" width="200" height="300" class="center">
 
 <div class="informations">
 <h2>About Me</h2>
